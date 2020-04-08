@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    /* body font */
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #2A3947;
+}
+
+/* header font */
+h1,
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #2A3947;
+}
+
+h1 {
+    font-size: 20px;
+    line-height: 27px;
+    color: #A1AEBC;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #A1AEBC;
+    text-transform: uppercase;
+
+
+}
+
+.container {
+    max-width: 1206px;
+    margin: 0 auto;
+}
+
+.menu-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    cursor: default;
+}
+
+.menu-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-container ul li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+.menu-container a {
+    text-decoration: none;
+    color: #2A3947;
+}
+
+.active {
+    color: #A1AEBC;
+}
+
+.menu-container div:first-child,
+.menu-container div:last-child {
+    width: 100px;
+}
+
+.menu-container div:last-child {
+    text-align: right;
+}
+
+.menu-container-icons {
+    margin: 15px;
+    color: #A1AEBC;
+}
+
+
+.feature-container,
+.card-container {
+    display: flex;
+    box-shadow: 0px 0px 25px rgba(42, 57, 71, 0.08);
+    border-radius: 4px;
+    margin-bottom: 65px;
+
+}
+
+.card-container {
+    display: block;
+    height: 296px;
+}
+
+.card-row {
+    display: flex;
+}
+
+.feature-text,
+.card-text {
+    width: 33%;
+    background-color: #ffffff;
+    padding: 50px 30px 50px 30px;
+}
+
+.card-text {
+    width: auto;
+}
+
+.feature-image,
+.card-image {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-image {
+    height: 100%;
+}
+
+.left-border-radius {
+    border-radius: 4px 0 0 4px;
+}
+
+.right-border-radius {
+    border-radius: 0 4px 4px 0;
+}
+
+.right-margin {
+    margin-right: 30px;
+}
+
+.top-margin {
+    margin-top: 351px;
+}
+
+.bottom-margin {
+    margin-bottom: 292px;
+}
+
+.footer {
+    margin-top: 400px;
+    margin-bottom: 44px;
+    text-align: center;
+}
+
+.bc-arrow {
+    font-size: 35px;
+    margin-right: 31px;
+    margin-left: 31px;
+    margin-bottom: 40px;
+    color: #A1AEBC;
+
+}
